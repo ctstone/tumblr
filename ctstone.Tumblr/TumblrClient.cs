@@ -7,8 +7,6 @@ using System.Text;
 
 namespace ctstone.Tumblr
 {
-
-
     public class TumblrClient : OAuthClientBase
     {
         public TumblrBlog Blog { get; private set; }
